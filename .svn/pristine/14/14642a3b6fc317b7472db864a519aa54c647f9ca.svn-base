@@ -1,0 +1,62 @@
+{
+  "_from": "@nuxt/babel-preset-app@2.11.0",
+  "_id": "@nuxt/babel-preset-app@2.11.0",
+  "_inBundle": false,
+  "_integrity": "sha1-6J/bfvXAjc4TUyzPY6cGQ5n2erA=",
+  "_location": "/@nuxt/babel-preset-app",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@nuxt/babel-preset-app@2.11.0",
+    "name": "@nuxt/babel-preset-app",
+    "escapedName": "@nuxt%2fbabel-preset-app",
+    "scope": "@nuxt",
+    "rawSpec": "2.11.0",
+    "saveSpec": null,
+    "fetchSpec": "2.11.0"
+  },
+  "_requiredBy": [
+    "/@nuxt/webpack"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@nuxt/babel-preset-app/download/@nuxt/babel-preset-app-2.11.0.tgz?cache=0&sync_timestamp=1576578296694&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40nuxt%2Fbabel-preset-app%2Fdownload%2F%40nuxt%2Fbabel-preset-app-2.11.0.tgz",
+  "_shasum": "e89fdb7ef5c08dce13532ccf63a7064399f67ab0",
+  "_spec": "@nuxt/babel-preset-app@2.11.0",
+  "_where": "C:\\Users\\Administrator\\Desktop\\新建文件夹 (5)\\hnh\\hnh\\node_modules\\@nuxt\\webpack",
+  "author": {
+    "name": "Evan You"
+  },
+  "bugs": {
+    "url": "https://github.com/nuxt/nuxt.js/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Clark Du"
+    }
+  ],
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/runtime": "^7.7.6",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "core-js": "^2.6.5"
+  },
+  "deprecated": false,
+  "description": "babel-preset-app for nuxt.js",
+  "homepage": "https://github.com/nuxt/nuxt.js#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "@nuxt/babel-preset-app",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt/nuxt.js.git"
+  },
+  "version": "2.11.0"
+}

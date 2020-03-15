@@ -1,0 +1,295 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+import { interopDefault } from './utils'
+import scrollBehavior from './router.scrollBehavior.js'
+
+const _9855dd04 = () => interopDefault(import('..\\pages\\cart\\index.vue' /* webpackChunkName: "pages_cart_index" */))
+const _c452a010 = () => interopDefault(import('..\\pages\\classification\\index.vue' /* webpackChunkName: "pages_classification_index" */))
+const _1022f370 = () => interopDefault(import('..\\pages\\confirmOrder\\index.vue' /* webpackChunkName: "pages_confirmOrder_index" */))
+const _7d1e5ead = () => interopDefault(import('..\\pages\\detail\\index.vue' /* webpackChunkName: "pages_detail_index" */))
+const _b4c5eea6 = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages_login_index" */))
+const _53258c72 = () => interopDefault(import('..\\pages\\my\\index.vue' /* webpackChunkName: "pages_my_index" */))
+const _31e15b5f = () => interopDefault(import('..\\pages\\redPaper.vue' /* webpackChunkName: "pages_redPaper" */))
+const _e393ebe8 = () => interopDefault(import('..\\pages\\search.vue' /* webpackChunkName: "pages_search" */))
+const _2dc3e277 = () => interopDefault(import('..\\pages\\share\\index.vue' /* webpackChunkName: "pages_share_index" */))
+const _0c92a09f = () => interopDefault(import('..\\pages\\wikipedia\\index.vue' /* webpackChunkName: "pages_wikipedia_index" */))
+const _6ec81568 = () => interopDefault(import('..\\pages\\confirmOrder\\orderPay.vue' /* webpackChunkName: "pages_confirmOrder_orderPay" */))
+const _78e32fae = () => interopDefault(import('..\\pages\\confirmOrder\\payBond.vue' /* webpackChunkName: "pages_confirmOrder_payBond" */))
+const _388a3c66 = () => interopDefault(import('..\\pages\\confirmOrder\\redPaper.vue' /* webpackChunkName: "pages_confirmOrder_redPaper" */))
+const _7cb6f362 = () => interopDefault(import('..\\pages\\detail\\auctionDetail.vue' /* webpackChunkName: "pages_detail_auctionDetail" */))
+const _1b4390fa = () => interopDefault(import('..\\pages\\detail\\comment.vue' /* webpackChunkName: "pages_detail_comment" */))
+const _fa680f6a = () => interopDefault(import('..\\pages\\detail\\groupDetail.vue' /* webpackChunkName: "pages_detail_groupDetail" */))
+const _3f38b75c = () => interopDefault(import('..\\pages\\detail\\integralDetail.vue' /* webpackChunkName: "pages_detail_integralDetail" */))
+const _22cdd83b = () => interopDefault(import('..\\pages\\detail\\seckillDetail.vue' /* webpackChunkName: "pages_detail_seckillDetail" */))
+const _55c52344 = () => interopDefault(import('..\\pages\\list\\classifyList.vue' /* webpackChunkName: "pages_list_classifyList" */))
+const _2c44f3ab = () => interopDefault(import('..\\pages\\list\\groupList.vue' /* webpackChunkName: "pages_list_groupList" */))
+const _c3ff1328 = () => interopDefault(import('..\\pages\\list\\integralList.vue' /* webpackChunkName: "pages_list_integralList" */))
+const _01d216db = () => interopDefault(import('..\\pages\\list\\seckillList.vue' /* webpackChunkName: "pages_list_seckillList" */))
+const _708cb7d6 = () => interopDefault(import('..\\pages\\login\\loginAgreement.vue' /* webpackChunkName: "pages_login_loginAgreement" */))
+const _71ceca52 = () => interopDefault(import('..\\pages\\login\\privacyAgreement.vue' /* webpackChunkName: "pages_login_privacyAgreement" */))
+const _336db1ad = () => interopDefault(import('..\\pages\\my\\about.vue' /* webpackChunkName: "pages_my_about" */))
+const _d06a3414 = () => interopDefault(import('..\\pages\\my\\add_address.vue' /* webpackChunkName: "pages_my_add_address" */))
+const _868586d8 = () => interopDefault(import('..\\pages\\my\\address.vue' /* webpackChunkName: "pages_my_address" */))
+const _68393882 = () => interopDefault(import('..\\pages\\my\\afterSale\\index.vue' /* webpackChunkName: "pages_my_afterSale_index" */))
+const _401d5586 = () => interopDefault(import('..\\pages\\my\\balance\\index.vue' /* webpackChunkName: "pages_my_balance_index" */))
+const _629cadc6 = () => interopDefault(import('..\\pages\\my\\integral\\index.vue' /* webpackChunkName: "pages_my_integral_index" */))
+const _478b0d75 = () => interopDefault(import('..\\pages\\my\\modifyName.vue' /* webpackChunkName: "pages_my_modifyName" */))
+const _0b799294 = () => interopDefault(import('..\\pages\\my\\myAssemble\\index.vue' /* webpackChunkName: "pages_my_myAssemble_index" */))
+const _323a0097 = () => interopDefault(import('..\\pages\\my\\redPaper\\index.vue' /* webpackChunkName: "pages_my_redPaper_index" */))
+const _078c20f0 = () => interopDefault(import('..\\pages\\my\\setting.vue' /* webpackChunkName: "pages_my_setting" */))
+const _13f439d0 = () => interopDefault(import('..\\pages\\my\\vipCenter\\index.vue' /* webpackChunkName: "pages_my_vipCenter_index" */))
+const _0c2e38cd = () => interopDefault(import('..\\pages\\share\\activityRules.vue' /* webpackChunkName: "pages_share_activityRules" */))
+const _0f44360f = () => interopDefault(import('..\\pages\\share\\cashAward.vue' /* webpackChunkName: "pages_share_cashAward" */))
+const _5212d983 = () => interopDefault(import('..\\pages\\wikipedia\\article.vue' /* webpackChunkName: "pages_wikipedia_article" */))
+const _14e362d8 = () => interopDefault(import('..\\pages\\my\\afterSale\\applyAfterSale.vue' /* webpackChunkName: "pages_my_afterSale_applyAfterSale" */))
+const _01409c9a = () => interopDefault(import('..\\pages\\my\\afterSale\\applyRefund.vue' /* webpackChunkName: "pages_my_afterSale_applyRefund" */))
+const _7424031f = () => interopDefault(import('..\\pages\\my\\integral\\integralRules.vue' /* webpackChunkName: "pages_my_integral_integralRules" */))
+const _515057dc = () => interopDefault(import('..\\pages\\my\\myAssemble\\assembleStatus.vue' /* webpackChunkName: "pages_my_myAssemble_assembleStatus" */))
+const _795c51d9 = () => interopDefault(import('..\\pages\\my\\order\\appraise.vue' /* webpackChunkName: "pages_my_order_appraise" */))
+const _5c3472cc = () => interopDefault(import('..\\pages\\my\\order\\appraiseSuccess.vue' /* webpackChunkName: "pages_my_order_appraiseSuccess" */))
+const _47005cd9 = () => interopDefault(import('..\\pages\\my\\order\\checkLogistics.vue' /* webpackChunkName: "pages_my_order_checkLogistics" */))
+const _07ed8b7e = () => interopDefault(import('..\\pages\\my\\order\\orderDetail.vue' /* webpackChunkName: "pages_my_order_orderDetail" */))
+const _ee1e0be4 = () => interopDefault(import('..\\pages\\my\\order\\orderList.vue' /* webpackChunkName: "pages_my_order_orderList" */))
+const _72c7a9d6 = () => interopDefault(import('..\\pages\\my\\redPaper\\paperRules.vue' /* webpackChunkName: "pages_my_redPaper_paperRules" */))
+const _2053d029 = () => interopDefault(import('..\\pages\\my\\vipCenter\\buyVip.vue' /* webpackChunkName: "pages_my_vipCenter_buyVip" */))
+const _7ccdace8 = () => interopDefault(import('..\\pages\\my\\vipCenter\\equityDetail.vue' /* webpackChunkName: "pages_my_vipCenter_equityDetail" */))
+const _076f185f = () => interopDefault(import('..\\pages\\my\\vipCenter\\vipAgreement.vue' /* webpackChunkName: "pages_my_vipCenter_vipAgreement" */))
+const _bc898180 = () => interopDefault(import('..\\pages\\my\\vipCenter\\vipEquity.vue' /* webpackChunkName: "pages_my_vipCenter_vipEquity" */))
+const _e92199c4 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+
+// TODO: remove in Nuxt 3
+const emptyFn = () => {}
+const originalPush = Router.prototype.push
+Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
+  return originalPush.call(this, location, onComplete, onAbort)
+}
+
+Vue.use(Router)
+
+export const routerOptions = {
+  mode: 'history',
+  base: decodeURI('/'),
+  linkActiveClass: 'nuxt-link-active',
+  linkExactActiveClass: 'nuxt-link-exact-active',
+  scrollBehavior,
+
+  routes: [{
+    path: "/cart",
+    component: _9855dd04,
+    name: "cart"
+  }, {
+    path: "/classification",
+    component: _c452a010,
+    name: "classification"
+  }, {
+    path: "/confirmOrder",
+    component: _1022f370,
+    name: "confirmOrder"
+  }, {
+    path: "/detail",
+    component: _7d1e5ead,
+    name: "detail"
+  }, {
+    path: "/login",
+    component: _b4c5eea6,
+    name: "login"
+  }, {
+    path: "/my",
+    component: _53258c72,
+    name: "my"
+  }, {
+    path: "/redPaper",
+    component: _31e15b5f,
+    name: "redPaper"
+  }, {
+    path: "/search",
+    component: _e393ebe8,
+    name: "search"
+  }, {
+    path: "/share",
+    component: _2dc3e277,
+    name: "share"
+  }, {
+    path: "/wikipedia",
+    component: _0c92a09f,
+    name: "wikipedia"
+  }, {
+    path: "/confirmOrder/orderPay",
+    component: _6ec81568,
+    name: "confirmOrder-orderPay"
+  }, {
+    path: "/confirmOrder/payBond",
+    component: _78e32fae,
+    name: "confirmOrder-payBond"
+  }, {
+    path: "/confirmOrder/redPaper",
+    component: _388a3c66,
+    name: "confirmOrder-redPaper"
+  }, {
+    path: "/detail/auctionDetail",
+    component: _7cb6f362,
+    name: "detail-auctionDetail"
+  }, {
+    path: "/detail/comment",
+    component: _1b4390fa,
+    name: "detail-comment"
+  }, {
+    path: "/detail/groupDetail",
+    component: _fa680f6a,
+    name: "detail-groupDetail"
+  }, {
+    path: "/detail/integralDetail",
+    component: _3f38b75c,
+    name: "detail-integralDetail"
+  }, {
+    path: "/detail/seckillDetail",
+    component: _22cdd83b,
+    name: "detail-seckillDetail"
+  }, {
+    path: "/list/classifyList",
+    component: _55c52344,
+    name: "list-classifyList"
+  }, {
+    path: "/list/groupList",
+    component: _2c44f3ab,
+    name: "list-groupList"
+  }, {
+    path: "/list/integralList",
+    component: _c3ff1328,
+    name: "list-integralList"
+  }, {
+    path: "/list/seckillList",
+    component: _01d216db,
+    name: "list-seckillList"
+  }, {
+    path: "/login/loginAgreement",
+    component: _708cb7d6,
+    name: "login-loginAgreement"
+  }, {
+    path: "/login/privacyAgreement",
+    component: _71ceca52,
+    name: "login-privacyAgreement"
+  }, {
+    path: "/my/about",
+    component: _336db1ad,
+    name: "my-about"
+  }, {
+    path: "/my/add_address",
+    component: _d06a3414,
+    name: "my-add_address"
+  }, {
+    path: "/my/address",
+    component: _868586d8,
+    name: "my-address"
+  }, {
+    path: "/my/afterSale",
+    component: _68393882,
+    name: "my-afterSale"
+  }, {
+    path: "/my/balance",
+    component: _401d5586,
+    name: "my-balance"
+  }, {
+    path: "/my/integral",
+    component: _629cadc6,
+    name: "my-integral"
+  }, {
+    path: "/my/modifyName",
+    component: _478b0d75,
+    name: "my-modifyName"
+  }, {
+    path: "/my/myAssemble",
+    component: _0b799294,
+    name: "my-myAssemble"
+  }, {
+    path: "/my/redPaper",
+    component: _323a0097,
+    name: "my-redPaper"
+  }, {
+    path: "/my/setting",
+    component: _078c20f0,
+    name: "my-setting"
+  }, {
+    path: "/my/vipCenter",
+    component: _13f439d0,
+    name: "my-vipCenter"
+  }, {
+    path: "/share/activityRules",
+    component: _0c2e38cd,
+    name: "share-activityRules"
+  }, {
+    path: "/share/cashAward",
+    component: _0f44360f,
+    name: "share-cashAward"
+  }, {
+    path: "/wikipedia/article",
+    component: _5212d983,
+    name: "wikipedia-article"
+  }, {
+    path: "/my/afterSale/applyAfterSale",
+    component: _14e362d8,
+    name: "my-afterSale-applyAfterSale"
+  }, {
+    path: "/my/afterSale/applyRefund",
+    component: _01409c9a,
+    name: "my-afterSale-applyRefund"
+  }, {
+    path: "/my/integral/integralRules",
+    component: _7424031f,
+    name: "my-integral-integralRules"
+  }, {
+    path: "/my/myAssemble/assembleStatus",
+    component: _515057dc,
+    name: "my-myAssemble-assembleStatus"
+  }, {
+    path: "/my/order/appraise",
+    component: _795c51d9,
+    name: "my-order-appraise"
+  }, {
+    path: "/my/order/appraiseSuccess",
+    component: _5c3472cc,
+    name: "my-order-appraiseSuccess"
+  }, {
+    path: "/my/order/checkLogistics",
+    component: _47005cd9,
+    name: "my-order-checkLogistics"
+  }, {
+    path: "/my/order/orderDetail",
+    component: _07ed8b7e,
+    name: "my-order-orderDetail"
+  }, {
+    path: "/my/order/orderList",
+    component: _ee1e0be4,
+    name: "my-order-orderList"
+  }, {
+    path: "/my/redPaper/paperRules",
+    component: _72c7a9d6,
+    name: "my-redPaper-paperRules"
+  }, {
+    path: "/my/vipCenter/buyVip",
+    component: _2053d029,
+    name: "my-vipCenter-buyVip"
+  }, {
+    path: "/my/vipCenter/equityDetail",
+    component: _7ccdace8,
+    name: "my-vipCenter-equityDetail"
+  }, {
+    path: "/my/vipCenter/vipAgreement",
+    component: _076f185f,
+    name: "my-vipCenter-vipAgreement"
+  }, {
+    path: "/my/vipCenter/vipEquity",
+    component: _bc898180,
+    name: "my-vipCenter-vipEquity"
+  }, {
+    path: "/",
+    component: _e92199c4,
+    name: "index"
+  }],
+
+  fallback: false
+}
+
+export function createRouter () {
+  return new Router(routerOptions)
+}
